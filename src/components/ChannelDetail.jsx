@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { jack } from '../images'
 import Videos from './Videos'
 import fetchFromApi from '../utills/fetchFromApi'
 
@@ -22,7 +21,7 @@ const ChannelDetail = () => {
   return (
     <div className='tect-white'>
         <div className='w-full md:h-[200px] h-[100px]' 
-        style={{background: 'rgb(6,105,131)',
+        style={{
             background: 'linear-gradient(90deg, rgba(6,105,131,0.9500175070028011) 33%, rgba(15,187,181,1) 71%, rgba(48,193,188,1) 80%)'}}></div>
 
         {channelDetail &&
